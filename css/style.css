@@ -2,10 +2,16 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "open sans";
 }
 html,body {
     height: 100%;
     background-color: gray;
+}
+
+@font-face {
+    font-family: "open sans";
+    src: url('../fonts/OpenSans-Light.ttf');
 }
 
 .center {
@@ -32,12 +38,73 @@ html,body {
 }
 
 .form {
+    padding: 10px;
     width: 400px;
-    height: 100%;
+    height: calc(100% + 30px);
     background-color: white;
+    position: relative;
+    top: -15px;
+    border: 8px solid #ccc;
     float: right;
+}
+
+.form h2 {
+    font-weight: normal;
+    color: #999;
+    font-size: 21px;
 }
 
 .container-banner > .center {
     height: 100%;
+}
+
+.input-cotainer {
+    margin-top: 20px;
+
+    
+}
+
+.input-cotainer span, .form p {
+    display: inline-block;
+    width: 100%;
+    color: #BBB;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.form p {
+    margin: 28px 0;
+}
+
+.input-cotainer input { 
+    margin-top: 8px;
+    outline: none;
+    width: 344px;
+    height: 55px;
+    border: 1px solid #ccc;
+
+}
+
+.submit {
+    text-align: center;
+}
+
+.form input[type=submit] {
+    
+    color: white;
+    font-size: 25px;
+    width: 280px;
+    height: 56px;
+    display: inline-block;
+    background-color: #363a6d;
+    /* border-top: 0;
+    border-left: 0;
+    border-right: 0; */
+    border: none;
+    border-bottom: 5px solid #4a5097;
+    cursor: pointer;
+}
+
+.form input[type=submit]:hover {
+    background-color: #323665;
 }
