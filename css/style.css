@@ -16,9 +16,11 @@ html,body {
 .center {
     width: calc(100% - 30px);
     margin: 0 auto;
+    padding: 0 2%;
 }
 
 .header {
+    min-width: calc(100% - 30px);
     width: 100%;
     height: 60px;
     background-color: #212343;
@@ -29,6 +31,7 @@ html,body {
 }
 
 .container-banner {
+    min-width: calc(100% - 30px);
     width: 100%;
     height: 557px;
     background-image: url('../img/header_bg.png');
@@ -115,7 +118,7 @@ html,body {
     height: calc(270px * 1.5);
     background-color: rgba(33, 35, 67, 0.7);
     border-radius: 10px;
-    margin-top: 40px;
+    margin-top: 85px;
     margin-left: 100px;
     border: 1px solid purple;
 }
@@ -130,6 +133,7 @@ html,body {
 }
 
 .container-conteudo {
+    min-width: calc(100% - 30px);
     padding: 40px 0;
     background-color: #ddd;
     text-align: center;
@@ -140,7 +144,7 @@ html,body {
 }
 
 .container-conteudo p {
-    width: 698px;
+    width:65%;
     display: inline-block;
     text-align: justify;
     margin: 15px 0;
@@ -154,4 +158,35 @@ html,body {
     position: relative;
     left: calc(50% - 20px);
     top: 60px;
+}
+
+.section-1 {
+    padding: 90px 0;
+}
+
+.section-1 h2 {
+    text-align: center;
+    color: #462663;
+    font-weight: normal;
+}
+
+.container-section {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.container-section {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+}
+
+.text-container-single {
+    text-align: justify;
+    padding: 0 50px;
+}
+
+.text-container-single h2{
+    margin: 0 0 20px 0;
 }
