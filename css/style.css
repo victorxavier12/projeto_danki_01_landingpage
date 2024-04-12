@@ -179,7 +179,7 @@ html,body {
     margin-top: 100px;
     display: flex;
     justify-content: space-between;
-    width: 95%;
+    width: 80%;
 }
 
 .text-container-single {
@@ -189,4 +189,19 @@ html,body {
 
 .text-container-single h2{
     margin: 0 0 20px 0;
+}
+
+.footer {
+    padding: 20px 0;
+    border-top: 4px solid #888;
+    text-align: center;
+    color: #888;
+}
+
+.footer p {
+    margin-top: 8px;
+}
+
+.footer p a {
+    text-decoration: none;
 }
